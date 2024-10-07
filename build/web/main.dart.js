@@ -90835,7 +90835,7 @@ $1(a){return new A.us(this.b,this.a,this.c,null)},
 $S:573}
 A.rP.prototype={
 G(a){var s=null
-return A.kk(A.l1(s,A.a8("About Us",s,s,s,s,s,s,s)),new A.bd(new A.au(16,16,16,16),A.r2(A.a8("Welcome to MoooFarm, where our dedicated team is fueled by the belief that optimal results stem from a potent blend of perseverance, determination, and a robust team spirit. Our dynamic and optimistic group comprises individuals with diverse backgrounds and experiences, all united by a shared goal\u2014to empower dairy farmers. Meet Team MoooFarm: a vibrant collective of young minds working harmoniously to bring smiles to the faces of our invaluable farmers.\n \n At the heart of our innovation and progress lies the IIT Ropar Technology and Innovation Foundation (iHub \u2013 AWaDH), a pioneering initiative established by the Department of Science & Technology (DST), Government of India. Nestled within the Indian Institute of Technology Ropar, iHub operates within the framework of the National Mission on Interdisciplinary Cyber Physical Systems (NM \u2013 ICPS), with well-defined, time-bound deliverables. Bolstered by a generous funding support of 110 Cr from the DST, Government of India, IIT Ropar Technology & Innovation Foundation is a driving force behind deep-tech research ideas, startups, and innovators.\n \n With a keen focus on Agriculture and Water, the Internet of Things (IoT), and Interdisciplinary Cyber Physical Systems (ICPS), our hub serves as a dynamic ecosystem fostering R&D. We not only provide incubation and acceleration resources but also offer unwavering support to technology-based startups, propelling them towards the realm of sustainable agriculture. Join us on this transformative journey, where innovation meets impact, and together, we cultivate a future of prosperity for our agricultural communities.",s,s,s,A.aX(s,s,s,s,s,s,s,s,s,s,s,20,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),s,s,B.ae),s),s,s)}}
+return A.kk(A.l1(s,A.a8("About Us",s,s,s,s,s,s,s)),new A.bd(new A.au(16,16,16,16),A.r2(A.a8("Welcome , where our dedicated team is fueled by the belief that optimal results stem from a potent blend of perseverance, determination, and a robust team spirit. Our dynamic and optimistic group comprises individuals with diverse backgrounds and experiences, all united by a shared goal\u2014to empower dairy farmers. Meet Team : a vibrant collective of young minds working harmoniously to bring smiles to the faces of our invaluable farmers.\n \n At the heart of our innovation and progress lies the IIT Ropar Technology and Innovation Foundation (iHub \u2013 AWaDH), a pioneering initiative established by the Department of Science & Technology (DST), Government of India. Nestled within the Indian Institute of Technology Ropar, iHub operates within the framework of the National Mission on Interdisciplinary Cyber Physical Systems (NM \u2013 ICPS), with well-defined, time-bound deliverables. Bolstered by a generous funding support of 110 Cr from the DST, Government of India, IIT Ropar Technology & Innovation Foundation is a driving force behind deep-tech research ideas, startups, and innovators.\n \n With a keen focus on Agriculture and Water, the Internet of Things (IoT), and Interdisciplinary Cyber Physical Systems (ICPS), our hub serves as a dynamic ecosystem fostering R&D. We not only provide incubation and acceleration resources but also offer unwavering support to technology-based startups, propelling them towards the realm of sustainable agriculture. Join us on this transformative journey, where innovation meets impact, and together, we cultivate a future of prosperity for our agricultural communities.",s,s,s,A.aX(s,s,s,s,s,s,s,s,s,s,s,20,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),s,s,B.ae),s),s,s)}}
 A.ho.prototype={}
 A.oT.prototype={
 ab(){var s=$.ah()
@@ -91056,7 +91056,7 @@ return A.cX(A.b([A.cN(s,s,B.q,a.b,s,s,s,20,s,s,s,s,20),A.aG(s,s,8),A.a8(a.a,s,s,
 $S:580}
 A.tW.prototype={
 G(a){var s=this,r=null
-return A.kk(A.l1(r,A.a8("Help & Support",r,r,r,r,r,r,r)),new A.bd(B.fN,A.aEL(A.b([s.xo("Getting Started"),s.Di("How to Use Our App","Learn the basics of our app.",a),s.xo("FAQs"),s.Mz("What is Moofarm App?","Moofarm app is a cow health monitoring system"),s.Mz("How to Reset Password","Please contact customer care"),s.xo("Troubleshooting"),s.Di("App Crashing","Tips to resolve app crashing issues.",a),s.Di("No Internet Connection","Troubleshoot internet connectivity problems.",a),s.xo("Contact Us"),s.Mw("Email","awadh@gmail.com"),s.Mw("Phone","+123-456-7890")],t.p),r),r),r,r)},
+return A.kk(A.l1(r,A.a8("Help & Support",r,r,r,r,r,r,r)),new A.bd(B.fN,A.aEL(A.b([s.xo("Getting Started"),s.Di("How to Use Our App","Learn the basics of our app.",a),s.xo("FAQs"),s.Mz("What is  App for?"," App is a cow health monitoring system"),s.Mz("How to Reset Password","Please contact customer care"),s.xo("Troubleshooting"),s.Di("App Crashing","Tips to resolve app crashing issues.",a),s.Di("No Internet Connection","Troubleshoot internet connectivity problems.",a),s.xo("Contact Us"),s.Mw("Email","awadh@gmail.com"),s.Mw("Phone","+123-456-7890")],t.p),r),r),r,r)},
 xo(a){var s=null
 return new A.bd(B.ED,A.a8(a,s,s,s,A.aX(s,s,s,s,s,s,s,s,s,s,s,18,s,s,B.a2,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),s)},
 Di(a,b,c){var s=null,r=A.a8(a,s,s,s,s,s,s,s)
@@ -91133,11 +91133,11 @@ $1(a){return new A.ju($.ah())},
 $S:217}
 A.adE.prototype={
 $3(a,b,c){var s=null,r=A.mb(B.ah,s,s).amo(B.c_,B.me,B.mi),q=A.mb(B.am,s,s),p=b.a?B.kO:B.zh
-return A.aES(q,!1,new A.Aw(s),r,p,"Mooofarm")},
+return A.aES(q,!1,new A.Aw(s),r,p,"Cow")},
 $S:584}
 A.Aw.prototype={
 ab(){var s="assets/images/information-systems.jpeg"
-return new A.UT(A.aA0(0),A.b(["assets/images/mooofarmlogo.png","assets/images/awadhlogo.png","assets/images/mission.jpeg","assets/images/iot-systems.jpeg",s,"assets/images/stubble-management-system.jpeg","assets/images/nuclear-applications.jpeg",s],t.s),new A.fY("en",null),null,null)}}
+return new A.UT(A.aA0(0),A.b(["assets/images/awadhlogo.png","assets/images/mission.jpeg","assets/images/iot-systems.jpeg",s,"assets/images/stubble-management-system.jpeg","assets/images/nuclear-applications.jpeg",s],t.s),new A.fY("en",null),null,null)}}
 A.a1b.prototype={}
 A.UT.prototype={
 tp(a){return this.adP(a)},
@@ -91176,7 +91176,7 @@ s=A.aFD(a,t.Pa)
 r=A.mb(B.ah,c,c)
 q=A.mb(B.am,c,c)
 p=s.a?B.kO:B.zh
-o=A.cN(c,A.aFk(d.r,new A.aqC(d),8,c,c),B.q,c,c,c,c,180,c,c,c,c,c)
+o=A.cN(c,A.aFk(d.r,new A.aqC(d),7,c,c),B.q,c,c,c,c,180,c,c,c,c,c)
 n=A.aG(c,20,c)
 m=d.x
 m=new A.lD(m,A.a0(m).h("lD<1>"))
@@ -91212,7 +91212,7 @@ s.w=B.c.a5(r)},
 $S:0}
 A.aqM.prototype={
 $1(a){var s=this.a,r=s.r
-if(s.w<7)r.Xf(B.az,A.cP(0,0,0,500,0,0))
+if(s.w<6)r.Xf(B.az,A.cP(0,0,0,500,0,0))
 else r.aqg(0)},
 $S:108}
 A.aqC.prototype={

@@ -7,13 +7,13 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
-  String get welcome_message => 'Mooofarm, Dairy ka kaam asaan kare';
+  String get welcome_message => ' Dairy ka kaam asaan kare';
 
   @override
   String get continue_button => 'Continue';
 
   @override
-  String get login_page_welcome => 'Welcome to Mooofarm';
+  String get login_page_welcome => 'Welcome ';
 
   @override
   String get enter_Farmer_ID => 'Enter Farmer ID';

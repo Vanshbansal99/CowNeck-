@@ -100,7 +100,7 @@ abstract class AppLocalizations {
   /// No description provided for @welcome_message.
   ///
   /// In en, this message translates to:
-  /// **'Mooofarm, Dairy ka kaam asaan kare'**
+  /// **' Dairy ka kaam asaan kare'**
   String get welcome_message;
 
   /// No description provided for @continue_button.
@@ -112,7 +112,7 @@ abstract class AppLocalizations {
   /// No description provided for @login_page_welcome.
   ///
   /// In en, this message translates to:
-  /// **'Welcome to Mooofarm'**
+  /// **'Welcome '**
   String get login_page_welcome;
 
   /// No description provided for @enter_Farmer_ID.

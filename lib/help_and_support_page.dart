@@ -14,7 +14,7 @@ class HelpAndSupportPage extends StatelessWidget {
             _buildSectionTitle('Getting Started'),
             _buildGuideTile('How to Use Our App', 'Learn the basics of our app.', context),
             _buildSectionTitle('FAQs'),
-            _buildFAQTile('What is Moofarm App?', 'Moofarm app is a cow health monitoring system'),
+            _buildFAQTile('What is  App for?', ' App is a cow health monitoring system'),
             _buildFAQTile('How to Reset Password', 'Please contact customer care'),
             _buildSectionTitle('Troubleshooting'),
             _buildGuideTile('App Crashing', 'Tips to resolve app crashing issues.', context),

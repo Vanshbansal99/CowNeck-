@@ -7,13 +7,13 @@ class AppLocalizationsPa extends AppLocalizations {
   AppLocalizationsPa([String locale = 'pa']) : super(locale);
 
   @override
-  String get welcome_message => 'ਮੂਫਾਰਮ, ਡੇਅਰੀ ਕਾ ਕੰਮ ਆਸਨ ਕਰੇ';
+  String get welcome_message => 'ਡੇਅਰੀ ਦਾ ਕੰਮ ਆਸਨ ਕਰੇ';
 
   @override
   String get continue_button => 'ਜਾਰੀ ਰੱਖੋ';
 
   @override
-  String get login_page_welcome => 'ਮੂਫਾਰਮ ਵਿੱਚ ਤੁਹਾਡਾ ਸਵਾਗਤ ਹੈ';
+  String get login_page_welcome => ' ਤੁਹਾਡਾ ਸਵਾਗਤ ਹੈ';
 
   @override
   String get enter_Farmer_ID => 'ਕਿਸਾਨ ਆਈਡੀ ਦਾਖਲ ਕਰੋ';

@@ -7,13 +7,13 @@ class AppLocalizationsHi extends AppLocalizations {
   AppLocalizationsHi([String locale = 'hi']) : super(locale);
 
   @override
-  String get welcome_message => 'मूफार्म, डेयरी का काम आसान करे';
+  String get welcome_message => ' डेयरी का काम आसान करे';
 
   @override
   String get continue_button => 'जारी रखें';
 
   @override
-  String get login_page_welcome => 'मूफार्म में आपका स्वागत है';
+  String get login_page_welcome => ' आपका स्वागत है';
 
   @override
   String get enter_Farmer_ID => 'किसान आईडी दर्ज करें';

@@ -106,7 +106,7 @@ class MyApp extends StatelessWidget {
       child: Consumer<ThemeManager>(
         builder: (context, themeManager, child) {
           return MaterialApp(
-            title: 'Mooofarm',
+            title: 'Cow',
             theme: ThemeData.light().copyWith(
               primaryColor: Colors.green, // Change the primary color
               primaryColorDark:
@@ -153,7 +153,7 @@ class _LoginPageState extends State<LoginPage>
   int _currentPage = 0;
 
   List<String> imagePaths = [
-    'assets/images/mooofarmlogo.png',
+    
     'assets/images/awadhlogo.png',
     'assets/images/mission.jpeg',
     'assets/images/iot-systems.jpeg',
