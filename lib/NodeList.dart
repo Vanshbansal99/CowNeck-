@@ -632,37 +632,32 @@ class _ThirdPageState extends State<ThirdPage> {
     Color windowColor = Colors.green;
 
     return Card(
-  color: windowColor,
-  elevation: 3.5,
-  shape: RoundedRectangleBorder(
-    borderRadius: BorderRadius.circular(12.0),
-  ),
-  child: Padding(
-    padding: const EdgeInsets.all(8.0),
-    child: Column(
-      mainAxisSize: MainAxisSize.min,
-      children: [
-        CustomFloatingWindow(
-          nodeId: nodeID,
-          imagePath: 'assets/images/tarantarancow1.jpeg',
-          buttonText: widget.appLocalizations.localizedValues['click_here'],
-          onButtonPressed: () {
-            print('Clicked on Node ID: $nodeID');
-            navigateToNewPage(
-              context,
-              originalCowID.toString(),
-              widget.appLocalizations,
-              widget.email,
-            );
-          },
-          cowIdText: widget.appLocalizations.localizedValues['cow_id'],
-          status: cowStatus[nodeID] ?? '0',
-        ),
-      ],
-    ),
-  ),
-);
-
+      color: windowColor,
+      elevation: 3.5,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(12.0),
+      ),
+      child: Column(
+        children: [
+          CustomFloatingWindow(
+            nodeId: nodeID,
+            imagePath: 'assets/images/imgbf4.png',
+            buttonText: widget.appLocalizations.localizedValues['click_here'],
+            onButtonPressed: () {
+              print('Clicked on Node ID: $nodeID');
+              navigateToNewPage(
+                context,
+                originalCowID.toString(), // Use the original cow ID
+                widget.appLocalizations,
+                widget.email,
+              );
+            },
+            cowIdText: widget.appLocalizations.localizedValues['cow_id'],
+            status: cowStatus[nodeID] ?? '0',
+          ),
+        ],
+      ),
+    );
   }
 
 
