@@ -153,7 +153,7 @@ class _LoginPageState extends State<LoginPage>
   int _currentPage = 0;
 
   List<String> imagePaths = [
-    
+
     'assets/images/awadhlogo.png',
     'assets/images/mission.jpeg',
     'assets/images/iot-systems.jpeg',
@@ -278,7 +278,14 @@ class _LoginPageState extends State<LoginPage>
 
         body: SafeArea(
           child: Stack(
-            children: [
+            children: [Container(
+                decoration: BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage('assets/images/cow.png'),
+              fit: BoxFit.cover,
+            ),
+          ),
+              ),
               Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
