@@ -1,7 +1,3 @@
-/*
-Sarthak@2023
- */
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
@@ -46,167 +42,6 @@ class AiDataForm extends StatefulWidget {
   _AiDataFormState createState() => _AiDataFormState();
 }
 
-//
-// class _AiDataFormState extends State<AiDataForm> {
-//   TextEditingController bullIdController = TextEditingController();
-//   TextEditingController aiDateController = TextEditingController();
-//   String selectedDataOfAi = '';
-//   String milkProductionFrequency = '';
-//   TextEditingController nextHeatDateController = TextEditingController();
-//
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       appBar: AppBar(
-//         title: Text("Enter AI Data Form"),
-//       ),
-//       body: Padding(
-//         padding: const EdgeInsets.all(16.0),
-//         child: Column(
-//           crossAxisAlignment: CrossAxisAlignment.start,
-//           children: [
-//             TextField(
-//               controller: bullIdController,
-//               decoration: InputDecoration(labelText: 'Bull ID'),
-//             ),
-//             SizedBox(height: 16.0),
-//             Row(
-//               children: [
-//                 Expanded(
-//                   child: InkWell(
-//                     onTap: () {
-//                       _selectDate(context, aiDateController);
-//                     },
-//                     child: Row(
-//                       children: [
-//                         Icon(Icons.calendar_today),
-//                         SizedBox(width: 8.0),
-//                         Text(
-//                           aiDateController.text.isNotEmpty
-//                               ? aiDateController.text
-//                               : 'Select Date of AI',
-//                           style: TextStyle(fontSize: 16),
-//                         ),
-//                       ],
-//                     ),
-//                   ),
-//                 ),
-//                 SizedBox(width: 16.0),
-//               ],
-//             ),
-//             SizedBox(height: 16.0),
-//             Text('Select Data of AI:'),
-//             // Add your code for selecting AI data (e.g., dropdown or radio buttons)
-//             SizedBox(height: 16),
-//             Text('Milk Production:'),
-//             Row(
-//               children: [
-//                 Radio(
-//                   value: 'daily',
-//                   groupValue: milkProductionFrequency,
-//                   onChanged: (value) {
-//                     setState(() {
-//                       milkProductionFrequency = value.toString();
-//                     });
-//                   },
-//                 ),
-//                 Text('Daily'),
-//                 Radio(
-//                   value: 'weekly',
-//                   groupValue: milkProductionFrequency,
-//                   onChanged: (value) {
-//                     setState(() {
-//                       milkProductionFrequency = value.toString();
-//                     });
-//                   },
-//                 ),
-//                 Text('Weekly'),
-//                 Radio(
-//                   value: 'monthly',
-//                   groupValue: milkProductionFrequency,
-//                   onChanged: (value) {
-//                     setState(() {
-//                       milkProductionFrequency = value.toString();
-//                     });
-//                   },
-//                 ),
-//                 Text('Monthly'),
-//               ],
-//             ),
-//             SizedBox(height: 16.0),
-//             Row(
-//               children: [
-//                 Expanded(
-//                   child: Text(
-//                     'Next Heat Date: ${calculateNextHeatDate()}',
-//                     style: TextStyle(fontSize: 16),
-//                   ),
-//                 ),
-//               ],
-//             ),
-//             SizedBox(height: 16.0),
-//             ElevatedButton(
-//               onPressed: () {
-//                 _submitForm();
-//                 Navigator.pop(context); // Navigate back to the previous screen
-//               },
-//               child: Text('Submit'),
-//             ),
-//           ],
-//         ),
-//       ),
-//     );
-//   }
-//
-//   Future<void> _selectDate(
-//       BuildContext context, TextEditingController controller) async {
-//     final DateTime? picked = await showDatePicker(
-//       context: context,
-//       initialDate: DateTime.now(),
-//       firstDate: DateTime(2000),
-//       lastDate: DateTime(2101),
-//     );
-//     if (picked != null) {
-//       setState(() {
-//         controller.text = '${DateFormat('dd/MM/yyyy').format(picked)}';
-//       });
-//     }
-//   }
-//
-//   void _submitForm() {
-//     // Implement the logic for submitting the form data
-//     print('Bull ID: ${bullIdController.text}');
-//     print('Date of AI: ${aiDateController.text}');
-//     print('Data of AI: $selectedDataOfAi');
-//     print('Milk Production: $milkProductionFrequency');
-//     print('Next Heat Date: ${nextHeatDateController.text}');
-//   }
-//
-//   // String calculateNextHeatDate() {
-//   //   DateTime? selectedDate = DateFormat('dd/MM/yyyy').parse(aiDateController.text, true);
-//   //   if (selectedDate != null) {
-//   //     DateTime nextHeatDate = selectedDate.add(Duration(days: 21));
-//   //     return DateFormat('dd/MM/yyyy').format(nextHeatDate);
-//   //   }
-//   //   return 'Invalid Date';
-//   // }
-//
-//   String calculateNextHeatDate() {
-//     if (aiDateController.text.isEmpty) {
-//       return 'Select Date of AI first';
-//     }
-//
-//     try {
-//       DateTime selectedDate = DateFormat('dd/MM/yyyy').parse(aiDateController.text);
-//       DateTime nextHeatDate = selectedDate.add(Duration(days: 21));
-//       return DateFormat('dd/MM/yyyy').format(nextHeatDate);
-//     } catch (e) {
-//       return 'Invalid Date Format';
-//     }
-//   }
-//
-//
-// }
 
 
 
@@ -231,7 +66,7 @@ class _AiDataFormState extends State<AiDataForm> {
           children: [
             TextField(
               controller: bullIdController,
-              decoration: InputDecoration(labelText: 'Enter Bull ID'),
+              decoration: InputDecoration(labelText: 'Enter cow ID'),
             ),
             SizedBox(height: 16.0),
             Row(
@@ -859,59 +694,113 @@ class DataTablePage extends StatelessWidget {
 
 
 
+  // List<PieChartSectionData> generatePieChartData(Map<String, int> data) {
+  //   List<PieChartSectionData> sections = [];
+  //   int total = data.values.reduce((a, b) => a + b);
+
+  //   data.forEach((activityLabel, totalTime) {
+  //     double percentage = (totalTime / total * 100);
+
+  //     sections.add(
+  //       PieChartSectionData(
+  //         value: percentage,
+  //         title: percentage >= 0.05 ? '$activityLabel' : '',
+  //         color: getRandomColor(),
+  //         titleStyle: TextStyle(fontSize: 10),
+  //         titlePositionPercentageOffset: 0.55,
+  //       ),
+  //     );
+  //   });
+
+  //   return sections;
+  // }
+
+  // List<LegendItem> generateLegendData(Map<String, int> data) {
+  //   List<LegendItem> legendData = [];
+
+  //   data.forEach((activityLabel, totalTime) {
+  //     double percentage = (totalTime / data.values.reduce((a, b) => a + b) * 100);
+  //     legendData.add(
+  //       LegendItem(
+  //         label: '$activityLabel - ${percentage.toStringAsFixed(2)}%',
+  //         color: getRandomColor(),
+  //       ),
+  //     );
+  //   });
+
+  //   return legendData;
+  // }
+
+
+  // Color getRandomColor() {
+  //   Random random = Random();
+  //   int red = random.nextInt(256);
+  //   int green = random.nextInt(256);
+  //   int blue = random.nextInt(256);
+
+  //   // Ensure the generated color is not black
+  //   while (red == 0 && green == 0 && blue == 0) {
+  //     red = random.nextInt(256);
+  //     green = random.nextInt(256);
+  //     blue = random.nextInt(256);
+  //   }
+
+  //   return Color.fromRGBO(red, green, blue, 1);
+  // }
   List<PieChartSectionData> generatePieChartData(Map<String, int> data) {
-    List<PieChartSectionData> sections = [];
-    int total = data.values.reduce((a, b) => a + b);
+  List<PieChartSectionData> sections = [];
+  int total = data.values.reduce((a, b) => a + b);
 
-    data.forEach((activityLabel, totalTime) {
-      double percentage = (totalTime / total * 100);
+  int index = 0;
+  data.forEach((activityLabel, totalTime) {
+    double percentage = (totalTime / total * 100);
 
-      sections.add(
-        PieChartSectionData(
-          value: percentage,
-          title: percentage >= 0.05 ? '$activityLabel' : '',
-          color: getRandomColor(),
-          titleStyle: TextStyle(fontSize: 10),
-          titlePositionPercentageOffset: 0.55,
-        ),
-      );
-    });
+    sections.add(
+      PieChartSectionData(
+        value: percentage,
+        title: percentage >= 0.05 ? '$activityLabel' : '',
+        color: getFixedColor(index),
+        titleStyle: TextStyle(fontSize: 10),
+        titlePositionPercentageOffset: 0.55,
+      ),
+    );
 
-    return sections;
-  }
+    index++;
+  });
 
-  List<LegendItem> generateLegendData(Map<String, int> data) {
-    List<LegendItem> legendData = [];
+  return sections;
+}
 
-    data.forEach((activityLabel, totalTime) {
-      double percentage = (totalTime / data.values.reduce((a, b) => a + b) * 100);
-      legendData.add(
-        LegendItem(
-          label: '$activityLabel - ${percentage.toStringAsFixed(2)}%',
-          color: getRandomColor(),
-        ),
-      );
-    });
+List<LegendItem> generateLegendData(Map<String, int> data) {
+  List<LegendItem> legendData = [];
 
-    return legendData;
-  }
+  int index = 0;
+  data.forEach((activityLabel, totalTime) {
+    double percentage = (totalTime / data.values.reduce((a, b) => a + b) * 100);
+    legendData.add(
+      LegendItem(
+        label: '$activityLabel - ${percentage.toStringAsFixed(2)}%',
+        color: getFixedColor(index),
+      ),
+    );
 
+    index++;
+  });
 
-  Color getRandomColor() {
-    Random random = Random();
-    int red = random.nextInt(256);
-    int green = random.nextInt(256);
-    int blue = random.nextInt(256);
+  return legendData;
+}
 
-    // Ensure the generated color is not black
-    while (red == 0 && green == 0 && blue == 0) {
-      red = random.nextInt(256);
-      green = random.nextInt(256);
-      blue = random.nextInt(256);
-    }
+  // Define fixed colors for each activity
+List<Color> fixedColors = [
+  Colors.red, // Color for the first activity
+  Colors.green, // Color for the second activity
+  Colors.blue, // Color for the third activity
+];
 
-    return Color.fromRGBO(red, green, blue, 1);
-  }
+Color getFixedColor(int index) {
+  return fixedColors[index % fixedColors.length];
+}
+
 
 
 }
