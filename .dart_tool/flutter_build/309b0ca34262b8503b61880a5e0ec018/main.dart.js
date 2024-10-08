@@ -91263,7 +91263,7 @@ return A.aEU(q,!1,new A.Ax(s),r,p,"Cow")},
 $S:584}
 A.Ax.prototype={
 ab(){var s="assets/images/information-systems.jpeg"
-return new A.UW(A.aA2(0),A.b(["assets/images/awadhlogo.png","assets/images/mission.jpeg","assets/images/iot-systems.jpeg",s,"assets/images/stubble-management-system.jpeg","assets/images/nuclear-applications.jpeg",s],t.s),new A.fZ("en",null),null,null)}}
+return new A.UW(A.aA2(0),A.b(["assets/images/awadhlogo.png","assets/images/cow.png","assets/images/iot-systems.jpeg",s,"assets/images/stubble-management-system.jpeg","assets/images/cow1.png",s],t.s),new A.fZ("en",null),null,null)}}
 A.a1e.prototype={}
 A.UW.prototype={
 tx(a){return this.adX(a)},
