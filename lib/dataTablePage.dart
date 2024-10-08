@@ -792,9 +792,12 @@ List<LegendItem> generateLegendData(Map<String, int> data) {
 
   // Define fixed colors for each activity
 List<Color> fixedColors = [
-  Colors.red, // Color for the first activity
-  Colors.green, // Color for the second activity
-  Colors.blue, // Color for the third activity
+  const Color.fromARGB(255, 156, 77, 71), // Color for the first activity
+  const Color.fromARGB(255, 84, 148, 86), // Color for the second activity
+  const Color.fromARGB(255, 92, 135, 171), // Color for the third activity
+  const Color.fromARGB(255, 146, 77, 132),
+    const Color.fromARGB(255, 71, 32, 37),
+
 ];
 
 Color getFixedColor(int index) {
