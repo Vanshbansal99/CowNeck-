@@ -155,11 +155,11 @@ class _LoginPageState extends State<LoginPage>
   List<String> imagePaths = [
 
     'assets/images/awadhlogo.png',
-    'assets/images/mission.jpeg',
+    'assets/images/cow.png',
     'assets/images/iot-systems.jpeg',
     'assets/images/information-systems.jpeg',
     'assets/images/stubble-management-system.jpeg',
-    'assets/images/nuclear-applications.jpeg',
+    'assets/images/cow1.png',
     'assets/images/information-systems.jpeg',
 
   ];
