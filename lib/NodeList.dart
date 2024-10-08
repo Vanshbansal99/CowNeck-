@@ -637,7 +637,7 @@ class _ThirdPageState extends State<ThirdPage> {
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(12.0),
       ),
-      child: Row(
+      child: Column(
         children: [
           CustomFloatingWindow(
             nodeId: nodeID,
