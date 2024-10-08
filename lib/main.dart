@@ -390,7 +390,7 @@ class _LoginPageState extends State<LoginPage>
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
                       Image.asset(
-                        'assets/images/awadhlogo.png',
+                        'assets/images/awadh_logo_only.jpeg',
                         width: 55,
                         height: 55,
                       ),
