@@ -505,7 +505,7 @@ class DataTablePage extends StatelessWidget {
     dataList.map((data) => activityData.fromJson(data)).toList();
 
     int nodeIdValue = int.tryParse(nodeId) ?? 0;
-    int cowNumber = nodeIdValue - 100;
+    int cowNumber = nodeIdValue;
 
     List<activityData> currentGroup = [];
     List<List<activityData>> groupedActivities = [];
