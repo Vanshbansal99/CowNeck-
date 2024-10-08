@@ -154,12 +154,12 @@ class _LoginPageState extends State<LoginPage>
 
   List<String> imagePaths = [
 
+    'assets/images/cow1.png',
     'assets/images/awadhlogo.png',
-    'assets/images/cow.png',
     'assets/images/iot-systems.jpeg',
     'assets/images/information-systems.jpeg',
     'assets/images/stubble-management-system.jpeg',
-    'assets/images/cow1.png',
+    'assets/images/cow.png',
     'assets/images/information-systems.jpeg',
 
   ];
@@ -325,7 +325,7 @@ class _LoginPageState extends State<LoginPage>
                         _appLocalizations.localizedValues['welcome_message'],
                         textStyle: GoogleFonts.kalam (
                         textStyle: TextStyle(
-                            fontSize: 20.0, fontStyle: FontStyle.italic )),
+                            fontSize: 20.0, fontStyle: FontStyle.italic,color: Colors.white,)),
                     ),
 
                   ),
@@ -384,6 +384,7 @@ class _LoginPageState extends State<LoginPage>
               Align(
                 alignment: Alignment.topRight,
                 child: BottomAppBar(
+                  color: Colors.green,
                   elevation: 0.0,
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -401,7 +402,7 @@ class _LoginPageState extends State<LoginPage>
                             textStyle: TextStyle(
                               fontSize: 16.0,
                               fontWeight: FontWeight.bold,
-                              color: Colors.green,
+                              color: Colors.white,
                             ),
                           ),
                         ),
@@ -414,7 +415,7 @@ class _LoginPageState extends State<LoginPage>
                             textStyle: TextStyle(
                               fontSize: 16.0,
                               fontWeight: FontWeight.bold,
-                              color: Colors.green,
+                              color: Colors.white,
                             ),
                           ),
                         ),
@@ -427,7 +428,7 @@ class _LoginPageState extends State<LoginPage>
                             textStyle: TextStyle(
                               fontSize: 16.0,
                               fontWeight: FontWeight.bold,
-                              color: Colors.green,
+                              color: Colors.white,
                             ),
                           ),
                         ),
