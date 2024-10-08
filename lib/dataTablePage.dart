@@ -796,6 +796,7 @@ List<Color> fixedColors = [
   Colors.green, // Color for the second activity
   Colors.blue, // Color for the third activity
    Color.fromARGB(255, 203, 235, 27),
+      Color.fromARGB(255, 174, 24, 74),
 ];
 
 Color getFixedColor(int index) {
