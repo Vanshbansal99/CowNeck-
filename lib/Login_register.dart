@@ -53,7 +53,7 @@ class _SeparatePageState extends State<SeparatePage>
       double screenWidth = MediaQuery.of(context).size.width;
       double screenHeight = MediaQuery.of(context).size.height;
 
-      showDialog(
+     /* showDialog(
         context: context,
         builder: (context) => Center(
           child: SizedBox(
@@ -63,7 +63,7 @@ class _SeparatePageState extends State<SeparatePage>
             child: AnimatedLoginDialog(appLocalizations),
           ),
         ),
-      );
+      );*/
     });
   }
 
@@ -85,6 +85,9 @@ class _SeparatePageState extends State<SeparatePage>
         ),
         //title: Text(appLocalizations.localizedValues[' ']),
       ),
+      body:Row(
+        
+      )
     );
   }
 }
@@ -441,26 +444,7 @@ class _AnimatedLoginDialogState extends State<AnimatedLoginDialog>
               ),
               SizedBox(height: 20),
 
-              // TextFormField(
-              //   controller: _passwordController,
-              //   decoration: InputDecoration(
-              //     labelText:
-              //     widget.appLocalizations.localizedValues['enter_password'],
-              //     suffixIcon: IconButton(
-              //       icon: Icon(
-              //         _isPasswordVisible
-              //             ? Icons.visibility
-              //             : Icons.visibility_off,
-              //       ),
-              //       onPressed: () {
-              //         setState(() {
-              //           _isPasswordVisible = !_isPasswordVisible;
-              //         });
-              //       },
-              //     ),
-              //   ),
-              //   obscureText: !_isPasswordVisible,
-              // ),
+           
               TextFormField(
                 controller: _passwordController,
                 style: GoogleFonts.kalam(
