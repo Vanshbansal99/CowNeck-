@@ -138,6 +138,7 @@ flutter:
     - assets/hi.json
     - assets/pa.json
     - assets/terms_and_condition.html
+    - assets/images/cow1.png
     #- google_fonts/
     #- assets/images/logo2.jpeg
   # assets:
