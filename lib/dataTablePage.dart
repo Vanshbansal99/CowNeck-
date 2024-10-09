@@ -545,6 +545,7 @@ class DataTablePage extends StatelessWidget {
                   ),
                 ),*/
                 SizedBox(
+                   height: 170,
                   width: MediaQuery.of(context).size.width * 0.10, // Adjust the width as needed
                   child: Legend(
                     data: generateLegendData(totalActivityTimes),
