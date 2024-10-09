@@ -528,30 +528,32 @@ class DataTablePage extends StatelessWidget {
 
 
             //pie chart
-            Row(
-              children: [
-                /*SizedBox(
-                  height: 170,
-                  width: MediaQuery.of(context).size.width * 0.7, // Adjust the width as needed
-                  child: PieChart(
-                    PieChartData(
-                      sections: generatePieChartData(totalActivityTimes),
-                      borderData: FlBorderData(show: false),
-                      sectionsSpace: 0,
-                      centerSpaceRadius: 40,
-                      centerSpaceColor: Colors.white,
-                      pieTouchData: PieTouchData(touchCallback: (PieTouchResponse? touchResponse) {}),
+            Center(
+              child: Row(
+                children: [
+                  /*SizedBox(
+                    height: 170,
+                    width: MediaQuery.of(context).size.width * 0.7, // Adjust the width as needed
+                    child: PieChart(
+                      PieChartData(
+                        sections: generatePieChartData(totalActivityTimes),
+                        borderData: FlBorderData(show: false),
+                        sectionsSpace: 0,
+                        centerSpaceRadius: 40,
+                        centerSpaceColor: Colors.white,
+                        pieTouchData: PieTouchData(touchCallback: (PieTouchResponse? touchResponse) {}),
+                      ),
+                    ),
+                  ),*/
+                  SizedBox(
+                     height: 170,
+                    width: MediaQuery.of(context).size.width * 0.10, // Adjust the width as needed
+                    child: Legend(
+                      data: generateLegendData(totalActivityTimes),
                     ),
                   ),
-                ),*/
-                SizedBox(
-                   height: 170,
-                  width: MediaQuery.of(context).size.width * 0.10, // Adjust the width as needed
-                  child: Legend(
-                    data: generateLegendData(totalActivityTimes),
-                  ),
-                ),
-              ],
+                ],
+              ),
             ),
 
 
