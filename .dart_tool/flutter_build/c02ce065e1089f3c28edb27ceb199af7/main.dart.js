@@ -96285,7 +96285,7 @@ a7R(a){var s=this.f,r=A.a1(s).h("ag<1,jW>")
 return A.aa(new A.ag(s,new A.atd(this,a),r),!0,r.h("aH.E"))},
 VU(a,b){var s=this,r=A.dw(b,null),q=A.iR(12),p=J.aK(s.a.d.a,"click_here"),o=J.aK(s.a.d.a,"cow_id")
 s.r.i(0,b)
-return A.axo(A.co(A.b([new A.KX(b,"assets/images/tarantarancow1.jpeg",p,o,new A.ate(s,b,a,r),null)],t.p),B.I,B.z,B.C),B.cy,3.5,null,new A.cr(q,B.l))},
+return A.axo(A.co(A.b([new A.KX(b,"assets/images/cow1.png",p,o,new A.ate(s,b,a,r),null)],t.p),B.I,B.z,B.C),B.cy,3.5,null,new A.cr(q,B.l))},
 atd(a,b,c,d){var s=A.ke(new A.ath(b,c,d),null,t.z)
 A.df(a,!1).fG(s)}}
 A.atg.prototype={
