@@ -509,7 +509,7 @@ class DataTablePage extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(height: 6),
+            SizedBox(height: 12),
 
             // SizedBox(
             //   height: 300,
