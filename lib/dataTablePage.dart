@@ -528,9 +528,9 @@ class DataTablePage extends StatelessWidget {
 
 
             //pie chart
-           /* Row(
+            Row(
               children: [
-                SizedBox(
+                /*SizedBox(
                   height: 170,
                   width: MediaQuery.of(context).size.width * 0.7, // Adjust the width as needed
                   child: PieChart(
@@ -543,7 +543,7 @@ class DataTablePage extends StatelessWidget {
                       pieTouchData: PieTouchData(touchCallback: (PieTouchResponse? touchResponse) {}),
                     ),
                   ),
-                ),
+                ),*/
                 SizedBox(
                   width: MediaQuery.of(context).size.width * 0.3, // Adjust the width as needed
                   child: Legend(
@@ -551,7 +551,7 @@ class DataTablePage extends StatelessWidget {
                   ),
                 ),
               ],
-            ),*/
+            ),
 
 
 
