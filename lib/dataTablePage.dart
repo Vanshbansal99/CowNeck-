@@ -528,7 +528,7 @@ class DataTablePage extends StatelessWidget {
 
 
             //pie chart
-            Row(
+           /* Row(
               children: [
                 SizedBox(
                   height: 170,
@@ -551,7 +551,7 @@ class DataTablePage extends StatelessWidget {
                   ),
                 ),
               ],
-            ),
+            ),*/
 
 
 
