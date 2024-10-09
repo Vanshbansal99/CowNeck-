@@ -641,7 +641,7 @@ class _ThirdPageState extends State<ThirdPage> {
         children: [
           CustomFloatingWindow(
             nodeId: nodeID,
-            imagePath: 'assets/images/tarantarancow1.jpeg',
+            imagePath: 'assets/images/cow1.png',
             buttonText: widget.appLocalizations.localizedValues['click_here'],
             onButtonPressed: () {
               print('Clicked on Node ID: $nodeID');
